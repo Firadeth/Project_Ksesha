@@ -230,3 +230,9 @@ h5 {
     box-shadow: 0 0 10px rgba(0,0,0,0.7);
     cursor: pointer;
 }
+
+
+h3 {
+    font-size: 100px;
+    text-align: center;
+}
