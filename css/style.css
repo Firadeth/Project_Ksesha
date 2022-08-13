@@ -1,0 +1,232 @@
+.home_page {
+    background: url('../Russia_Moscow_Rivers_478099_1920-1200.png');
+}
+
+button:active, button:focus {
+    outline: none !important;
+}
+
+
+.first_screen {
+    min-height: 345px;
+    /* background: url('../first_bg.png'); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    top: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    /* font-style: italic; */
+    margin-top: 120px;
+}
+
+.performance {
+    position: absolute;
+    width: 880px;
+    top: 280px;
+}
+
+.performance_text {
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Cormorant Infant';
+    font-weight: 500;
+    z-index: -1;
+}
+
+.second_screen {
+    margin-top: 150px;
+}
+
+.quest {
+    position: relative;
+    min-height: 680px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+
+.quest_choose_descr {
+    display: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px 10px 20px 0;
+    background-color: rgba(250, 211, 144, .6);
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.quest_choose_descr li {
+    margin-top: 20px;
+}
+
+.quest_choose_descr li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.quest_choose_btn {
+    width: 260px;
+    height: 110px;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: 0 8px 15px rgba(0,0,0,.4);
+    border: none;
+    border-radius: 10px;
+    background-color: #fa983a;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 35px;
+    outline-style: none;
+    transition: all 0.5s;
+}
+
+.quest_choose_btn:hover {
+    box-shadow: 0 15px 20px rgba(229, 142, 38, .4);
+    transform: translateY(-3px);
+}
+
+.quest_test_btn {
+    width: 260px;
+    height: 110px;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, .4);
+    border: none;
+    border-radius: 10px;
+    background-color: #e55039;
+    transition: 0.5s;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.quest_test_btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 20px rgba(235, 47, 6, .4);
+}
+
+
+.quest_test_descr {
+    padding: 15px;
+    margin-top: 30px;
+    width: 260px;
+    min-height: 190px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(229, 80, 57, .6);
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.quest_test_descr_text {
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.third_screen {
+    min-height: 950px;
+    background: url('../bg_city.jpeg'); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 150px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.big_family {
+    display: flex;
+    width: 1500px;
+    height: 750px;
+    padding: 50px;
+    background-color: rgba(0,0,0, .65);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    position: relative;
+    color: #ffffff;
+    font-family: 'Cormorant Infant';
+}
+
+h2, .family_descr {
+    margin-left: 50px;
+}
+
+.family_descr {
+    color: #ffffff;
+    font-family: 'Cormorant Infant';
+    font-size: 25px;
+}
+
+.big_family_head {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.big_family_head a {    
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.big_family_footer {
+    position: absolute;
+    top: 670px;
+    display: flex;
+    align-items: flex-end;
+    line-height: 0;
+    font-size: 25px;
+    left: 20px;
+}
+
+.img_footer {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.family_quest {
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 450px;
+}
+
+.carousel_2 {
+    margin-top: 50px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+
+.carousel-inner {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    cursor: pointer;
+}
